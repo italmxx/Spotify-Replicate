@@ -11,7 +11,14 @@ import { CardComponent } from './components/card/card.component';
     FooterComponent,
     NavbarComponent,
     CardComponent
+
   ],
+
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
