@@ -1,23 +1,40 @@
 footer{
   background-color: #232323;
   color: #fff;
+  width: 84%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
 }
 
-nav section {
+nav{
+  margin: 8px 16px 40px;
+}
+
+.contatti {
   display: flex;
-  justify-content: i;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.contatti section{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .logo{
-  border: 4px solid red;
   display: flex;
-  justify-content: flex-end;
-
 }
 
 ul{
   display: flex ;
   flex-direction: column;
+}
+
+p{
+  font-weight: 700;
 }
 
 a {
@@ -26,10 +43,24 @@ a {
 }
 
 div svg {
-  width: 16px;
-  height: 16px;
+  width: auto;
+  height: 40px;
   padding: 8px;
+
   background-color: #292929;
   border-radius: 50%;
   fill: white;
+}
+
+.primo{
+  max-width: 500px;
+}
+
+.ultimo{
+  min-width: 200px;
+}
+
+hr{
+  width: 80%;
+  margin: 50px auto;
 }
