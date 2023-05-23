@@ -13,6 +13,6 @@
 
 - Creazione modello er
 
-- 5 minuit di recap a fine giornata
+- 5 minuti di recap a fine giornata
 
 - Nomi della variabili in camelCase

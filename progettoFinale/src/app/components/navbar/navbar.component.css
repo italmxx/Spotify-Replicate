@@ -1,0 +1,96 @@
+header{
+  width: 16%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo{
+  /* border: 1px solid white; */
+  margin: 10px auto;
+}
+.navBar img{
+  width: 170px;
+  cursor: pointer;
+}
+
+
+/* DIV MENU ICON CONTENENTE LA LISTA */
+.menuIcon{
+  width: 100%;
+  color: rgb(157, 156, 156);
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* SVG CUSTOM RESET */
+.menuIcon svg{
+  width: 30px;
+  height: 30px;
+  fill: rgb(157, 156, 156);
+  margin: 5px 10px;
+}
+.menuIcon svg:hover{
+  fill: whitesmoke;
+  transition: 0.3s;
+}
+
+
+.listNav .itemNav{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.listNav .itemNav:hover{
+  color:whitesmoke;
+  transition: 0.3s;
+}
+.listNav .itemNav span{
+  margin: 5px 20px;
+}
+
+.row{
+  width: 200px;
+  /* border: 1px solid white; */
+  height: 350px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+
+
+}
+.row span{
+  margin: 10px 0;
+  color: rgb(157, 156, 156);
+  cursor: pointer;
+  font-size: 13px;
+}
+.row span:last-child:hover{
+  text-decoration: underline;
+}
+
+.btn-lang{
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(157, 156, 156);
+  border-radius: 50px;
+  margin: 10px;
+  color:whitesmoke;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-lang svg{
+  width: 20px;
+  height: 20px;
+  fill: rgb(157, 156, 156);
+  margin: 5px 10px;
+}
