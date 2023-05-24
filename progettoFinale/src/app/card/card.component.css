@@ -70,3 +70,12 @@
   padding:4px;
   margin-left:15px;
 }
+.album-song{
+  display:flex;
+  border:5px solid blue;
+}
+
+.album-song .album{
+  color:#B3B3B3;
+  font-size:16px;
+}
