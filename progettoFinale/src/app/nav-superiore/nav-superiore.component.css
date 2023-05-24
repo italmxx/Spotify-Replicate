@@ -65,3 +65,7 @@
   scale: 1.1;
   transition: 0.3s;
 }
+#acc a{
+  text-decoration: none;
+  color: black;
+}
