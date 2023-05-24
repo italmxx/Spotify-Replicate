@@ -1,11 +1,12 @@
 
 <section class = "section">
-<div class = "container-card" >
+<div class = "container-card"
+(mouseover)="mostraImmagine()" (mouseout)="nascondiImmagine()" >
   <div class = "card-img">
     <img src = "{{img}}">
   </div>
   <div class = "card-play" >
-    <img src="../../../assets/play.png" alt="play">
+    <img *ngIf="mostra" src="../../../assets/play.png" alt="play">
   </div>
   <div class = "card-text">
     <span class = "name">{{titolo}}</span>

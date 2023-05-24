@@ -1,11 +1,10 @@
 .container{
   width: 100%;
-  height: 800px;
-  background-color: #232323;
+  height: 900px;
   display: flex;
   align-items: start;
   justify-content: right;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding-top: 60px;
 }
 
@@ -19,5 +18,36 @@
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
-  border: 1px solid white;
+  margin: 40px 0;
+  /* border: 1px solid white; */
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+}
+#options{
+  margin: 20px 30px 0;
+}
+#sx{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#sx:hover{
+  text-decoration: underline;
+  transition: 0.3s;
+}
+#dx{
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(157, 156, 156);
+  cursor: pointer;
+}
+#dx:hover{
+  text-decoration: underline;
+  transition: 0.3s;
 }
