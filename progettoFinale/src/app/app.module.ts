@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
+import { NavSuperioreComponent } from './Components/nav-superiore/nav-superiore.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,6 +15,8 @@ import { CardComponent } from './components/card/card.component';
     NavbarComponent,
     CardComponent
 
+    NavbarComponent,
+    NavSuperioreComponent
   ],
 
   imports: [
