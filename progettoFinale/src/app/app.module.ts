@@ -4,17 +4,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CardComponent } from './components/card/card.component';
-import { NavbarComponent } from './Components/navbar/navbar.component';
-import { NavSuperioreComponent } from './Components/nav-superiore/nav-superiore.component';
+import { CardComponent } from './card/card.component';
+import { NavSuperioreComponent } from './nav-superiore/nav-superiore.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     NavbarComponent,
-    CardComponent
-
+    CardComponent,
     NavbarComponent,
     NavSuperioreComponent
   ],
