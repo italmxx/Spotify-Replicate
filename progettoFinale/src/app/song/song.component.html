@@ -1,34 +1,49 @@
+<section class="section">
+  <div (mouseover)="mostraImmagine()" (mouseout)="nascondiImmagine()" class="container-song">
 
-
-<section class = "section">
-  <div class = "container-song" >
-    <div class = "card-play" >
-      <img src="../../../assets/play.png" alt="play">
-    </div>
-    <div class = "song-img">
-      <img src = {{img}}>
-    </div>
-
-    <div class = "info-song">
-    <span class = "artist">{{autore}}</span>
-    <div class = "song-text">
-      <span class = "name">{{titolo}}</span>
-    </div>
-
-    <span class = "album-song">
-
-    </span>
-
-    <div class = "like">
+    <div class="song-play">
+      <span *ngIf = "nascondi">1</span>
+      <!-- <span>{{id_song}}</span> -->
+      <svg *ngIf="mostra" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>
 
     </div>
 
-    <span class = "song-len">
-
-    </span>
-
+    <div class="song-img">
+      <!-- <img src={{ img_song }}/> -->
+      <img src = "https://m.media-amazon.com/images/I/81nFF-rXdRL._AC_SL1500_.jpg">
 
     </div>
+
+    <div class = "song-details">
+      <div class="song-title">
+        <span class="title">SICKO MODE</span>
+          <!-- {{ titolo_song }}</span> -->
+      </div>
+    <div class="artist-song">
+      <div class = "artist-container">
+      <span class="artist">Travis Scott</span>
+      <span class = "artist">Drake</span>
+        <!-- {{ autore_song }}</span> -->
+      </div>
+    </div>
+  </div>
+
+    <div class = "others">
+      <div class="album-song">
+        <span class="album">ASTROWORLD</span>
+          <!-- {{ album_song }} </span> -->
+      </div>
+
+      <div class="like">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg>
+      </div>
+
+      <div class="song-len">
+        <span class="len">5:03</span>
+          <!-- {{ len_song }} </span> -->
+      </div>
+    </div>
+
 
   </div>
-  </section>
+</section>
