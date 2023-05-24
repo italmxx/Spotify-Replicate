@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { NavSuperioreComponent } from './nav-superiore/nav-superiore.component';
 import { HomeComponent } from './home/home.component';
+import { SongComponent } from './song/song.component';
+import { PagePlaylistComponent } from './page-playlist/page-playlist.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HomeComponent } from './home/home.component';
     CardComponent,
     NavbarComponent,
     NavSuperioreComponent,
-    HomeComponent
+    HomeComponent,
+    SongComponent,
+    PagePlaylistComponent
   ],
 
   imports: [
