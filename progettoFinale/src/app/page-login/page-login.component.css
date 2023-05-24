@@ -1,0 +1,111 @@
+body{
+  height: 100vh;
+  color: #fff;
+  background-color: #000;
+}
+
+nav{
+  border: 1px solid blue;
+  background-color: #000;
+}
+.logo{
+  margin: 32px 32px 0 51px;
+  height: 100%;
+  text-align: left;
+  display: block;
+  border: 1px solid red;
+}
+
+.logo img {
+  height: 36px;
+}
+
+section{
+  margin: 50px auto;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partePrima{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.partePrima > div{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 14px;
+  margin: 4px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+
+
+}
+
+.partePrima div svg {
+  height: 20px;
+  fill: #f00;
+}
+
+#F{
+  fill: #00f;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#A{
+  fill: #fff;
+}
+
+hr{
+  width: 80%;
+}
+
+.parteForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #f00;
+}
+
+.parteForm form{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  margin: 20px 0;
+}
+
+form *{
+  padding: 10px 14px;
+  /* border-radius: 10%; in progress*/
+}
+
+form label{
+  margin: 8px 0;
+}
+
+form input{
+  background-color: darkgrey;
+}
+
+.parteForm div{
+  display: flex;
+  justify-content: center;
+  padding: 10px 14px;
+  background-color: green;
+  border-radius: 30px;
+  align-items: center;
+}

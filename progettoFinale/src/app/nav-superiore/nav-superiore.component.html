@@ -10,7 +10,12 @@
   </div>
   <div class="btn">
     <div id="isc">Iscriviti</div>
-    <div id="acc" [routerLink]="['/page-login']" routerLinkActive="router-link-active" >Accedi</div>
+    <!-- <div id="acc" [routerLink]="['../../app/page-login/']" routerLinkActive="router-link-active" > -->
+
+    <div id="acc">
+      <a routerLink="/pageLogin/" > Accedi</a>
+
+    </div>
   </div>
 
 </nav>

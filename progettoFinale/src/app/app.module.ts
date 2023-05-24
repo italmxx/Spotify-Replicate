@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { CardComponent } from './card/card.component';
 import { NavSuperioreComponent } from './nav-superiore/nav-superiore.component';
 import { HomeComponent } from './home/home.component';
+import { PageLoginComponent } from './page-login/page-login.component';
 
 @NgModule({
   declarations: [
@@ -14,9 +15,9 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     NavbarComponent,
     CardComponent,
-    NavbarComponent,
     NavSuperioreComponent,
-    HomeComponent
+    HomeComponent,
+    PageLoginComponent
   ],
 
   imports: [
