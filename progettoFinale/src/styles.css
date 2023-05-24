@@ -4,3 +4,23 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
+body{
+  background-color: #151515;
+}
+
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+::-webkit-scrollbar-track {
+  background: #151515;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #313131;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

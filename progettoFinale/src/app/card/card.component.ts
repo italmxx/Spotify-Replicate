@@ -8,4 +8,16 @@ import { Component, Input } from '@angular/core';
 export class CardComponent {
   @Input() titolo: String | undefined;
   @Input () autore: String | undefined;
+  @Input () img: any | undefined;
+
+  mostra: boolean = false;
+
+  mostraImmagine() {
+    this.mostra = true;
+  }
+
+  nascondiImmagine() {
+    this.mostra = false;
+  }
 }
+
