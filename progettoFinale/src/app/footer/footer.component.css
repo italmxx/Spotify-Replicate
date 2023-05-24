@@ -1,6 +1,6 @@
 footer{
   background-color: #232323;
-  color: #fff;
+  color: rgb(157, 156, 156);
   width: 84%;
   position: absolute;
   bottom: 0;
@@ -9,7 +9,7 @@ footer{
 }
 
 nav{
-  margin: 8px 16px 40px;
+  padding: 8px 16px 40px;
 }
 
 .contatti {
@@ -18,19 +18,26 @@ nav{
   justify-content: space-between;
 
 }
+
 .contatti section{
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.logo{
-  display: flex;
+section div{
+  margin: 8px 32px 40px 0;
+}
+
+span{
+  margin: 8px 0;
 }
 
 ul{
   display: flex ;
   flex-direction: column;
+  color: rgb(208, 202, 202);
+  padding: 0 0 8px;
 }
 
 p{
@@ -39,17 +46,12 @@ p{
 
 a {
   text-decoration: none;
-   color: #fff;
+  color: rgb(157, 156, 156);
 }
 
-div svg {
-  width: auto;
-  height: 40px;
-  padding: 8px;
-
-  background-color: #292929;
-  border-radius: 50%;
-  fill: white;
+a:hover{
+  text-decoration: underline;
+  color: rgb(208, 202, 202);
 }
 
 .primo{
@@ -60,7 +62,26 @@ div svg {
   min-width: 200px;
 }
 
+.logo{
+  display: flex;
+}
+
+div svg {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  background-color: #292929;
+  border-radius: 50%;
+  fill: white;
+}
+
+div svg:hover{
+  transition: 1s;
+  background-color: rgb(208, 202, 202);
+}
+
 hr{
-  width: 80%;
+  width: 90%;
   margin: 50px auto;
 }
+
