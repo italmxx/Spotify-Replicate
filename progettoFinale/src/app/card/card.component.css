@@ -1,33 +1,40 @@
-
 .section{
   width: 84%;
-  /* position: absolute; */
-  right:0;
 }
 
 .container-card{
   display:flex;
   flex-direction: column;
-  background-color: #282828;
+  background-color: #212121;
   width: 217.2px;
   height: 295.2px;
   border-radius: 10px;
   cursor:pointer;
+
+  /* border: 1px solid blue; */
+}
+.container-card:hover{
+  background-color: #414141;
+  transition: 0.3s ease-in;
 }
 
 .card-img{
   display:flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 0;
+
   /* border:5px solid red; */
+
 }
 
 .card-img img{
   padding:10px;
-  width:170px;
+  width: 170px;
   height:170px;
   border-radius: 10px;
-  box-shadow: grey;
+  background: linear-gradient(145deg, #121212, #151515);
+  box-shadow:  16px 16px 50px #090909, -16px -16px 50px #1f1f1f;
 
 }
 
@@ -58,7 +65,7 @@
 }
 
 .card-text .artist{
-  color: #a9a9a9;
+  color: rgb(157, 156, 156);
   font-size:14px;
   padding:4px;
   margin-left:15px;
