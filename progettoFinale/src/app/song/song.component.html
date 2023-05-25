@@ -1,9 +1,6 @@
 <main>
   <section class="section">
-    <div
-      (mouseover)="mostraImmagine()"
-      (mouseout)="nascondiImmagine()"
-      class="container-song bd">
+    <div (mouseover)="mostraImmagine()" (mouseout)="nascondiImmagine()" class="container-song bd">
       <div class="parte-sx bd">
         <div class="song-play">
           <span *ngIf="nascondi">{{ id_song }}</span>

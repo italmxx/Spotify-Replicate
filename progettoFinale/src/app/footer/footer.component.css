@@ -66,6 +66,7 @@ a:hover{
 }
 
 .logo{
+
   display: flex;
 }
 
@@ -88,3 +89,23 @@ hr{
   margin: 50px auto;
 }
 
+
+@media screen and (max-width: 900px) {
+  .contatti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .logo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
