@@ -173,6 +173,7 @@ form input:hover{
   width: 100px;
   height: 50px;
   fill: #1fd760;
+  cursor: pointer;
 }
 
 
@@ -211,4 +212,6 @@ form input:hover{
   color: #1fd760;
 }
 
-
+a{
+  text-decoration: none;
+}
