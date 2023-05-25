@@ -8,5 +8,9 @@ import { NgForm } from '@angular/forms';
 })
 
 export class PageLoginComponent {
+  mostraDivSecondo = false;
 
+  toggleDiv() {
+    this.mostraDivSecondo = !this.mostraDivSecondo;
+  }
 }

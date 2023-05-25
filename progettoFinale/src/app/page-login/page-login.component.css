@@ -1,83 +1,111 @@
-body{
-  height: 100vh;
-  color: #fff;
-  background-color: #000;
-}
-
-nav{
-  border: 1px solid blue;
+.nav{
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
   background-color: #000;
 }
 .logo{
-  margin: 32px 32px 0 51px;
-  height: 100%;
-  text-align: left;
-  display: block;
-  border: 1px solid red;
+  height: 50px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  cursor: pointer;
 }
 
 .logo img {
+  width: 120px;
   height: 36px;
 }
 
-section{
+.container{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#232323, #212121, #000);
+}
+.formDiv{
   margin: 50px auto;
   width: 800px;
-  height: 600px;
-  border: 1px solid #000;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #000;
+  color: #ffffff;
+  border-radius: 10px;
 }
+
 
 .partePrima{
   height: 300px;
-  width: 100%;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid white; */
+  /* margin: 30px 0; */
 }
 
-.partePrima > div{
-  width: 250px;
+h1{
+  margin: 20px auto;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.button{
+  width: 320px;
+  height: 50px;
+  margin: 5px 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 10px 14px;
-  margin: 4px;
-  border: 1px solid #fff;
   border-radius: 30px;
-
-
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid rgb(100, 100, 100);
 }
-
-.partePrima div svg {
+.button:hover{
+  border: 1px solid white;
+}
+.button span{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.button svg{
+  width: 20px;
   height: 20px;
-  fill: #f00;
+  fill: white;
+  /* margin: 0 10px; */
 }
-
-#F{
-  fill: #00f;
-  background-color: #fff;
+#GOOGLE{
+  fill: red;
+}
+#FB{
+  fill: rgb(36, 36, 232);
+  /* background: #fff; */
   border-radius: 50%;
 }
 
-#A{
-  fill: #fff;
-}
+
+
 
 hr{
   width: 80%;
+  border: 1px solid #232323;
 }
 
 .parteForm{
+  height: 400px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid #f00;
+  /* border: 1px solid #f00; */
 }
 
 .parteForm form{
@@ -94,18 +122,93 @@ form *{
 }
 
 form label{
-  margin: 8px 0;
+  margin: 0 85px;
+  font-weight: bold;
 }
 
 form input{
-  background-color: darkgrey;
+  background-color: #232323;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+  border-radius: 5px;
+  border: 1px solid rgb(157, 156, 156);
+  outline: 2px solid rgb(58, 58, 58);
+  color: white;
+  font-size: 16px;
+
 }
 
-.parteForm div{
+form input:focus{
+  border: 3px solid #fff;
+  transition: 0s ease-in;
+}
+
+form input:hover{
+  border: 1px solid white;
+}
+
+
+
+#psw{
+  margin: auto;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#psw:hover{
+  color: #1fd760;
+
+}
+.remember{
+  /* border: 1px solid white; */
+  width: 300px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 0 40px;
+}
+
+.remember svg{
+  width: 100px;
+  height: 50px;
+  fill: #1fd760;
+}
+
+
+.parteForm button{
   display: flex;
   justify-content: center;
   padding: 10px 14px;
-  background-color: green;
+  background-color: #1fd760;
   border-radius: 30px;
   align-items: center;
+  width: 300px;
+  margin: auto;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
 }
+.parteForm button:hover{
+  scale: 1.1;
+}
+
+
+#bottomWrite{
+  margin: 50px;
+  cursor: pointer;
+  color: #909090;
+  font-weight: 600;
+}
+
+#bold{
+  color: #fff;
+}
+#bold:hover{
+  color: #1fd760;
+}
+
+
