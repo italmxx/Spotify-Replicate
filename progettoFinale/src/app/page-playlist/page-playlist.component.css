@@ -1,30 +1,20 @@
 main{
   width:100%;
-  /* height: 100vh; */
-  /* position:absolute; */
   display:flex;
   flex-direction:column;
   align-items:flex-end;
   justify-content: center;
-  /* border:5px solid red; */
 }
 
 .section{
   width: 84%;
   display:flex;
-  /* border:5px solid yellow; */
   background:linear-gradient(#89c8c1,#89a1a1, #607b7b);
   padding:30px;
-  /* position:absolute; */
-  /* padding:0px 16px; */
-
-
 }
-
 
 .top-playlist{
   display:flex;
-  /* border:5px solid blue; */
   flex-direction: row;
   align-items: center;
 }
@@ -37,12 +27,10 @@ main{
 .img-playlist img{
   width:192px;
   height:192px;
-  /* background: linear-gradient(145deg, #121212, #151515); */
   box-shadow:  16px 16px 50px #606060, -16px -16px 50px #909090;
 }
 
 .details-playlist{
-  /* border:5px solid purple; */
   display:flex;
   flex-direction:column;
   gap:20px;
@@ -73,7 +61,6 @@ main{
   display:flex;
   flex-direction: row;
   align-items:center;
-  /* border:5px solid brown; */
 }
 
 .spotify-logo img{
@@ -100,7 +87,6 @@ main{
   width: 84%;
   display:flex;
   flex-direction:column;
-  /* border:5px solid orange; */
   padding:10px;
 }
 
@@ -143,7 +129,6 @@ main{
   width:30px;
   height:30px;
   fill:rgb(157,156,156);
-
 }
 
 .options svg:hover{
@@ -155,42 +140,43 @@ main{
   display:flex;
   flex-direction: column;
   margin-top:20px;
-  /* border:2px solid red; */
 }
-.table .riga{
-
+.riga{
   display:flex;
   flex-direction: row;
   align-items:center;
-  justify-content:space-between;
   color:rgb(157,156,156);
-  /* border:5px solid yellow; */
   padding:10px;
-
 }
 
 hr{
   border: 1px solid rgb(157,156,156);
 }
 
-.table .riga .riga-sx{
-  /* border: 2px solid blue; */
+.riga-sx{
   display:flex;
   flex:1;
   gap:20px;
 }
 
-
-.table .riga .riga-dx{
-  justify-content: space-around;
-  /* border: 1px solid blue; */
+.riga-dx{
   display:flex;
-  gap:190px;
+  justify-content: space-around;
   flex:1;
 }
-.riga-dx svg{
+
+.riga-dx div, .riga-dx span{
+  flex:1;
+}
+
+.riga-dx div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+svg{
   width:15px;
-  fill:rgb(157,156,156)
+  fill:rgb(157,156,156);
 }
 
 .play-logo img:hover{
