@@ -1,0 +1,181 @@
+main{
+  width:100%;
+  /* height: 100vh; */
+  /* position:absolute; */
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  justify-content: center;
+  /* border:5px solid red; */
+}
+
+.section{
+  width: 84%;
+  display:flex;
+  /* border:5px solid yellow; */
+  background-color:#89c8c1;
+  padding:10px;
+  /* position:absolute; */
+  /* padding:0px 16px; */
+
+
+}
+
+
+.top-playlist{
+  display:flex;
+  /* border:5px solid blue; */
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-playlist{
+  display:flex;
+  margin-left:20px;
+}
+
+.img-playlist img{
+  width:192px;
+  height:192px;
+}
+
+.details-playlist{
+  /* border:5px solid purple; */
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  margin-left:30px;
+}
+
+.details-playlist .text-playlist{
+  font-size:14px;
+  color:#ffff;
+  font-weight: bold;
+}
+
+
+.details-playlist .title-playlist{
+  font-size:50px;
+  color:#ffff;
+  font-weight: bold;
+}
+
+.details-playlist .artist-playlist{
+  font-size:14px;
+  color:rgb(157,156,156);
+  font-weight: bold;
+  margin-left:3px;
+}
+
+.len-playlist{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  /* border:5px solid brown; */
+}
+
+.spotify-logo img{
+  width:24px;
+  height: 24px;
+}
+
+.text-spotify{
+  color:#ffff;
+  font-size:14px;
+  font-weight:bold;
+  margin-left:3px;
+}
+
+.details-brani{
+  color:#ffff;
+  font-size:14px;
+  font-weight:bold;
+  margin-left:5px;
+}
+
+
+.section-2{
+  width: 84%;
+  display:flex;
+  flex-direction:column;
+  /* border:5px solid orange; */
+  padding:10px;
+}
+
+.nav-play{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  gap:20px;
+}
+
+.play-logo{
+  display:flex;
+}
+
+.play-logo img{
+  width:56px;
+  height:56px;
+}
+
+.like-logo{
+  display:flex;
+}
+
+.like-logo svg{
+  width:30px;
+  height:30px;
+  fill: rgb(157,156,156);
+}
+
+.options{
+  display:flex;
+}
+.like-logo svg:hover{
+  fill:white;
+}
+.options svg{
+  width:30px;
+  height:30px;
+  fill:rgb(157,156,156);
+
+}
+
+.options svg:hover{
+  fill:white;
+}
+
+.table{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  margin-top:20px;
+  border:2px solid red;
+}
+.table .riga{
+
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+  color:#ffff;
+  /* border:5px solid yellow; */
+  padding:10px;
+ 
+}
+
+.table .riga .riga-sx{
+  border: 2px solid blue;
+  display:flex;
+  flex:1;
+  gap:20px;
+}
+
+
+.table .riga .riga-dx{
+  justify-content: space-between;
+  border: 1px solid blue;
+  display:flex;
+  flex:1;
+}
+
