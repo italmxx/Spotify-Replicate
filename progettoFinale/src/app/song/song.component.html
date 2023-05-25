@@ -1,6 +1,9 @@
-<section class="section">
+<main>
+<section class = "section">
+  
   <div (mouseover)="mostraImmagine()" (mouseout)="nascondiImmagine()" class="container-song">
-
+  
+    <div class = "parte-sx">
     <div class="song-play">
       <span *ngIf = "nascondi">1</span>
       <!-- <span>{{id_song}}</span> -->
@@ -9,29 +12,31 @@
     </div>
 
     <div class="song-img">
-      <!-- <img src={{ img_song }}/> -->
-      <img src = "https://m.media-amazon.com/images/I/81nFF-rXdRL._AC_SL1500_.jpg">
+      <!-- <img src=/> -->
+      <img src = "{{ img_song }}">
 
     </div>
 
     <div class = "song-details">
       <div class="song-title">
-        <span class="title">SICKO MODE</span>
-          <!-- {{ titolo_song }}</span> -->
+        <span class="title">{{titolo_song}}</span>
+          <!-- </span> -->
       </div>
     <div class="artist-song">
       <div class = "artist-container">
-      <span class="artist">Travis Scott</span>
-      <span class = "artist">Drake</span>
-        <!-- {{ autore_song }}</span> -->
+      <span class="artist">{{autore_song}}</span>
+      <!-- <span class = "artist">{{ autore_song }}</span> -->
+        <!-- </span> -->
       </div>
     </div>
   </div>
+</div>
 
+  <div class = "parte-dx">
     <div class = "others">
       <div class="album-song">
-        <span class="album">ASTROWORLD</span>
-          <!-- {{ album_song }} </span> -->
+        <span class="album">{{album_song}}</span>
+          <!--  </span> -->
       </div>
 
       <div class="like">
@@ -39,11 +44,12 @@
       </div>
 
       <div class="song-len">
-        <span class="len">5:03</span>
+        <span class="len">{{len_song}}</span>
           <!-- {{ len_song }} </span> -->
       </div>
     </div>
-
+  </div>
 
   </div>
 </section>
+</main>
