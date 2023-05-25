@@ -102,6 +102,9 @@ header{
   margin: 5px 10px;
 }
 
+
+
+/* MEDIA QUERY */
 @media screen and (max-width: 1200px){
   .navBar img{
     width: 100px;
@@ -140,10 +143,11 @@ header{
   .navBar .itemNav span{
     display: none;
   }
+
   .navBar .itemNav svg{
     margin: 10px auto;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
