@@ -26,25 +26,8 @@ export class SongComponent {
     this.nascondi = true;
   }
 
-  // playSound(){
-  //   let audio : any;
-  //     switch(this.id_song){
-  //       case 1:
 
-  //         audio = '../../assets/1.mp3';
-  //         audio.play();
-  //         break;
-        
-  //       case 2:
-  //         audio = '../../assets/2.mp3';
-  //         audio.play();
-  //         break;
-          
-        
-  //     }
-  // }
 
-  
 }
 
 

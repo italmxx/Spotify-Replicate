@@ -16,6 +16,11 @@ export class PagePlaylistComponent {
 
   }
   audioFile: string = 'assets/2.mp3';
+  playAudioOnClick() {
+  const audio = new Audio(this.audioFile);
+  audio.play();
+
+  }
 
   playSound(id:number){
 
@@ -28,8 +33,7 @@ export class PagePlaylistComponent {
           audio.play();
           // audio.pause();
           break;
-         playAudioOnClick() {
-    const audio = new Audio(this.audioFile);
+
 
         case 2:
           audioFile = '../../assets/2.mp3';
@@ -71,8 +75,8 @@ export class PagePlaylistComponent {
 
 
 
-    audio.play();
-  }
+
+
   constructor(private titleService: Title) {  }
 
   ngOnInit() {
