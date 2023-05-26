@@ -37,11 +37,6 @@ header{
   fill: rgb(157, 156, 156);
   margin: 5px 10px;
 }
-.menuIcon svg:hover{
-  fill: whitesmoke;
-  transition: 0.3s;
-}
-
 
 .listNav .itemNav, a{
   list-style: none;
@@ -49,12 +44,12 @@ header{
   align-items: center;
   cursor: pointer;
 }
-.listNav .itemNav:hover{
+
+/* Quando vai in hover sul li lo span prende i seguenti attributi */
+.menuIcon .itemNav:hover span, .menuIcon .itemNav:hover svg{
   color:whitesmoke;
+  fill: whitesmoke;
   transition: 0.3s;
-}
-.itemNav a:hover{
-  color: whitesmoke;
 }
 
 .listNav .itemNav a{
@@ -70,9 +65,8 @@ header{
   justify-content: center;
   flex-direction: column;
   padding: 10px;
-
-
 }
+
 .row span{
   margin: 10px 0;
   color: rgb(157, 156, 156);

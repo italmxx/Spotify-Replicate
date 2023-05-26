@@ -4,6 +4,7 @@
   height: 100px;
   background-color: #000;
 }
+
 .logo{
   height: 50px;
   width: 300px;
@@ -24,6 +25,7 @@
   height: 100%;
   background: linear-gradient(#232323, #212121, #000);
 }
+
 .formDiv{
   margin: 50px auto;
   width: 800px;
@@ -37,7 +39,6 @@
   border-radius: 10px;
 }
 
-
 .partePrima{
   height: 300px;
   width: 500px;
@@ -45,8 +46,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid white; */
-  /* margin: 30px 0; */
 }
 
 h1{
@@ -67,32 +66,34 @@ h1{
   text-align: center;
   border: 2px solid rgb(100, 100, 100);
 }
+
 .button:hover{
   border: 1px solid white;
 }
+
 .button span{
   width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
+
 .button svg{
   width: 20px;
   height: 20px;
   fill: white;
   /* margin: 0 10px; */
 }
+
 #GOOGLE{
   fill: red;
 }
+
 #FB{
   fill: rgb(36, 36, 232);
   /* background: #fff; */
   border-radius: 50%;
 }
-
-
-
 
 hr{
   width: 80%;
@@ -148,13 +149,12 @@ form input:hover{
   border: 1px solid white;
 }
 
-
-
 #psw{
   margin: auto;
   text-decoration: underline;
   cursor: pointer;
 }
+
 #psw:hover{
   color: #1fd760;
 
@@ -176,7 +176,6 @@ form input:hover{
   cursor: pointer;
 }
 
-
 .parteForm button{
   display: flex;
   justify-content: center;
@@ -197,7 +196,6 @@ form input:hover{
   scale: 1.1;
 }
 
-
 #bottomWrite{
   margin: 50px;
   cursor: pointer;
@@ -213,5 +211,6 @@ form input:hover{
 }
 
 a{
+
   text-decoration: none;
 }
