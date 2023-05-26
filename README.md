@@ -1,18 +1,14 @@
 # Progetto-finale
 
+# Replication of a Spotify Page 
 
-## Code Rules Team
+## Prima pagina - Pagina Home
+Una volta che ci troviamo in pagina Home, possiamo vedere l'interfaccia replicata della pagina web di Spotify.
+Se clicchiamo sul pulsante Accedi,troviamo il form per fare l'accesso.
+Dopo averci loggato, cliccando su Accedi, troviamo la nostra playlist Page.
+Cliccando sui primi due brani dal browser partono le prime tracce importate.
 
-- Commentare sempre il codice
-
-- Display flex in css
-
-- Variabili boolane per i controlli si chiamano flag
-
-- Nomi delle variabili in inglese
-
-- Creazione modello er
-
-- 5 minuti di recap a fine giornata
-
-- Nomi della variabili in camelCase
+## Bonus
+-Sito responsive
+-Integrazione due tracce
+-Funzionalità Navbar laterale
