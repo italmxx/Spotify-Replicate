@@ -11,9 +11,9 @@ Dopo averci loggato, cliccando su Accedi, troviamo la nostra playlist Page.
 Cliccando sui primi due brani dal browser partono le prime tracce importate.
 
 ## Bonus
---Sito responsive
---Integrazione due tracce
---Funzionalità Navbar laterale
+- Sito responsive
+- Integrazione due tracce
+- Funzionalità Navbar laterale
 
 # Progetto sviluppato con il framework Angular
 ## Collaboratori al progetto: Italo Mollo, Marco Mechini, Fabio De Biase, Giulia Frau
