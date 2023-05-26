@@ -9,7 +9,7 @@ export class CardComponent {
   @Input() titolo: String | undefined;
   @Input () autore: String | undefined;
   @Input () img: any | undefined;
-
+  @Input () len_song: any | undefined;
   mostra: boolean = false;
 
   mostraImmagine() {
