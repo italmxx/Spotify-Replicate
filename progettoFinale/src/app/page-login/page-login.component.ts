@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
-
+import { Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-page-login',
   templateUrl: './page-login.component.html',
@@ -13,4 +13,8 @@ export class PageLoginComponent {
   toggleDiv() {
     this.mostraDivSecondo = !this.mostraDivSecondo;
   }
+  constructor(private titleService: Title) { }
+ngOnInit() {
+  this.titleService.setTitle('Accedi - Spotify');
+}
 }
