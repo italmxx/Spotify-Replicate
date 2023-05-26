@@ -51,6 +51,7 @@ export class PagePlaylistComponent {
 
   stopSound(id:number){
     let audioFile : any;
+    
     switch(id){
       case 1:
         console.log(id);
