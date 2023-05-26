@@ -1,5 +1,3 @@
-# Progetto-finale
-
 # Replication of a Spotify Page 
 
 ## Prima pagina - Pagina Home
