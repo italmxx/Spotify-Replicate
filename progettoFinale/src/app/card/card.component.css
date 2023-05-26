@@ -10,9 +10,8 @@
   height: 295.2px;
   border-radius: 10px;
   cursor:pointer;
-
-  /* border: 1px solid blue; */
 }
+
 .container-card:hover{
   background-color: #414141;
   transition: 0.3s ease-in;
@@ -23,9 +22,6 @@
   align-items: center;
   justify-content: center;
   padding: 10px 0;
-
-  /* border:5px solid red; */
-
 }
 
 .card-img img{
@@ -35,9 +31,20 @@
   border-radius: 10px;
   background: linear-gradient(145deg, #121212, #151515);
   box-shadow:  16px 16px 50px #090909, -16px -16px 50px #1f1f1f;
-
 }
 
+.container-card:hover .card-play{
+  opacity: 1;
+  transform: translateY(0);
+  transition: ease-in-out 0.3s;
+}
+
+.card-play{
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: ease-in-out 0.3s
+}
 
 .card-play img{
   width:40px;
@@ -48,7 +55,6 @@
   margin-left: 150px;
   display:block;
 }
-
 
 .card-text{
   display:flex;

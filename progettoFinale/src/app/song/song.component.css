@@ -2,7 +2,13 @@ section{
   width:100%;
   display:flex;
   flex-direction: column;
-  margin-top:20px;
+  /* margin-top:20px; */
+  /* border:1px solid red; */
+  cursor:pointer;
+}
+
+section:hover{
+  background-color:#454545;
 }
 
 .riga{
@@ -48,6 +54,11 @@ section{
   cursor: pointer;
 }
 
+#titolo_song{
+  font-size:16px;
+  color:#ffff;
+}
+
 .album{
   cursor: pointer;
 }
@@ -72,5 +83,18 @@ img{
   width:15px;
   height:15px;
   fill:#1fd760;
+}
+
+.len{
+  display:flex;
+  flex:1;
+  /* justify-content:right; */
+  /* border:1px solid red; */
+}
+
+.len .len-song{
+  color:rgb(157,156,156);
+  font-size:14px;
+  text-align:right;
 }
 /* CUORE VERDE */

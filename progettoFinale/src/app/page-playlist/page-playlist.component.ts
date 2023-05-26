@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./page-playlist.component.css']
 })
 export class PagePlaylistComponent {
+  visibile : boolean = true;
+  mostraImmagineCuore() {
+    this.visibile = !this.visibile;
+    
+  }
+  
+ 
+
 
 }
