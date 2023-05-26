@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-page-playlist',
   templateUrl: './page-playlist.component.html',
   styleUrls: ['./page-playlist.component.css']
+
 })
+
+
 export class PagePlaylistComponent {
   visibile : boolean = true;
   mostraImmagineCuore() {
@@ -18,6 +22,10 @@ export class PagePlaylistComponent {
 
     audio.play();
   }
+  constructor(private titleService: Title) {  }
 
+  ngOnInit() {
+    this.titleService.setTitle('Spotify | Playlist');
+  }
 
 }
