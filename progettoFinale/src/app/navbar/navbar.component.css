@@ -10,8 +10,7 @@ header{
 
 
 .logo{
-  /* border: 1px solid white; */
-  margin: 10px auto;
+  margin: 10px 0;
 }
 .navBar img{
   width: 170px;
@@ -28,6 +27,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  /* border: 1px solid; */
 }
 
 /* SVG CUSTOM RESET */
@@ -43,7 +43,7 @@ header{
 }
 
 
-.listNav .itemNav{
+.listNav .itemNav, a{
   list-style: none;
   display: flex;
   align-items: center;
@@ -53,10 +53,14 @@ header{
   color:whitesmoke;
   transition: 0.3s;
 }
-.listNav .itemNav span{
-  margin: 5px 20px;
+.itemNav a:hover{
+  color: whitesmoke;
 }
 
+.listNav .itemNav a{
+  text-decoration: none;
+  color: rgb(157, 156, 156);
+}
 .row{
   width: 200px;
   /* border: 1px solid white; */
@@ -96,4 +100,65 @@ header{
   height: 20px;
   fill: rgb(157, 156, 156);
   margin: 5px 10px;
+}
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px){
+  .navBar img{
+    width: 100px;
+    margin: auto;
+
+  }
+
+  .navBar .itemNav span{
+    display: none;
+  }
+  .navBar .itemNav svg{
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row{
+    display: none;
+  }
+
+  .btn-lang{
+    margin: 80px auto;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .navBar img{
+    display: none;
+
+  }
+
+  .navBar .itemNav span{
+    display: none;
+  }
+
+  .navBar .itemNav svg{
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .row{
+    display: none;
+  }
+
+  .btn-lang{
+   display: none;
+  }
 }

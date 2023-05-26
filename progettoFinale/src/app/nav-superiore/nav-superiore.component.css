@@ -4,7 +4,6 @@
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: row;
-  /* position: absolute; */
   right: 0;
   top: 0;
   position: fixed;
@@ -28,6 +27,10 @@
   width: auto;
   height: 30px;
   margin: 15px;
+  cursor: pointer;
+}
+.icone-destra div svg:hover{
+  fill: rgb(157, 156, 156);
 }
 
 
@@ -64,4 +67,8 @@
 #acc:hover{
   scale: 1.1;
   transition: 0.3s;
+}
+#acc a{
+  text-decoration: none;
+  color: black;
 }
