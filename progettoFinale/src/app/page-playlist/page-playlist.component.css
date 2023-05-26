@@ -13,8 +13,8 @@ main{
   width: 84%;
   display:flex;
   /* border:5px solid yellow; */
-  background-color:#89c8c1;
-  padding:10px;
+  background:linear-gradient(#89c8c1,#89a1a1, #607b7b);
+  padding:30px;
   /* position:absolute; */
   /* padding:0px 16px; */
 
@@ -37,6 +37,8 @@ main{
 .img-playlist img{
   width:192px;
   height:192px;
+  /* background: linear-gradient(145deg, #121212, #151515); */
+  box-shadow:  16px 16px 50px #606060, -16px -16px 50px #909090;
 }
 
 .details-playlist{
@@ -62,7 +64,7 @@ main{
 
 .details-playlist .artist-playlist{
   font-size:14px;
-  color:rgb(157,156,156);
+  color:#606060;
   font-weight: bold;
   margin-left:3px;
 }
@@ -107,6 +109,8 @@ main{
   flex-direction:row;
   align-items:center;
   gap:20px;
+  margin-left:30px;
+  padding:20px;
 }
 
 .play-logo{
@@ -116,6 +120,7 @@ main{
 .play-logo img{
   width:56px;
   height:56px;
+  cursor:pointer;
 }
 
 .like-logo{
@@ -150,7 +155,7 @@ main{
   display:flex;
   flex-direction: column;
   margin-top:20px;
-  border:2px solid red;
+  /* border:2px solid red; */
 }
 .table .riga{
 
@@ -158,14 +163,18 @@ main{
   flex-direction: row;
   align-items:center;
   justify-content:space-between;
-  color:#ffff;
+  color:rgb(157,156,156);
   /* border:5px solid yellow; */
   padding:10px;
  
 }
 
+hr{
+  border: 1px solid rgb(157,156,156);
+}
+
 .table .riga .riga-sx{
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   display:flex;
   flex:1;
   gap:20px;
@@ -173,9 +182,18 @@ main{
 
 
 .table .riga .riga-dx{
-  justify-content: space-between;
-  border: 1px solid blue;
+  justify-content: space-around;
+  /* border: 1px solid blue; */
   display:flex;
+  gap:190px;
   flex:1;
 }
+.riga-dx svg{
+  width:15px;
+  fill:rgb(157,156,156)
+}
 
+.play-logo img:hover{
+  scale: 1.1;
+  transition: 0.1s ease-in-out;
+}

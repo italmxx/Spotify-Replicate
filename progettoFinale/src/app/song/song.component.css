@@ -2,7 +2,7 @@
 main{
   width:100%;
   display:flex;
-  justify-content: right;
+  /* justify-content: right; */
   /* margin-left:30px; */
   /* border:5px solid yellow; */
 }
@@ -13,11 +13,15 @@ main{
   justify-content: space-between;
   display:flex;
   flex-direction: row;
-  flex:1;
+  /* flex:1; */
   /* position:absolute; */
   /* padding:0px 16px; */
 
 
+}
+
+.bd {
+  /* border: 1px solid red; */
 }
 
 section:hover{
@@ -27,7 +31,7 @@ section:hover{
 
 
 .parte-sx{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width:100%;
   display:flex;
   align-items: center;
@@ -35,18 +39,17 @@ section:hover{
 }
 
 .parte-dx{
-  border: 1px solid red;
-  width:100%;
-  display:flex;
-  align-items: center;
-  flex:1;
-  justify-content:flex-end;
+ width:100%;
+ display:flex;
+ align-items: center;
+ flex-grow: 1;
 }
 
 .section .container-song{
   display:flex;
   align-items:center;
   flex-direction: row;
+  flex-grow: 1;
   gap:20px;
 }
 .song-play{
@@ -70,6 +73,7 @@ section:hover{
 }
 
 .song-img{
+  margin-left:20px;
   display:flex;
   align-items:center;
 }
@@ -81,6 +85,7 @@ section:hover{
 .song-details{
   width:600px;
   height:48px;
+  margin-left:10px;
   display:flex;
   flex-direction:column;
   margin-top:10px;
@@ -88,6 +93,7 @@ section:hover{
 }
 
 .song-title{
+  
   display:flex;
   align-items: auto;
 }
@@ -120,26 +126,50 @@ section:hover{
 }
 .album-song{
   display:flex;
-  /* border:5px solid blue; */
+  /* border:1px solid blue; */
 }
 
 
 .others{
-  display:flex;
+  /* display:flex; */
   /* border:5px solid purple; */
 
+  display:flex;
+  flex:1;
+  /* border:1px solid red; */
+  /* width:500px; */
+  /* gap: 100px; */
+  
 }
 
 
 .album-song .album{
+ 
   color:#B3B3B3;
   font-weight: bold;
   font-size:16px;
+  /* padding-left:5px; */
+}
+
+.box-like {
+  width:50%;
+  /* border: 1px solid green; */
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right:50px;
+}
+
+.song-box{
+  width:50%;
+  /* border:1px solid yellow; */
+  display:flex;
 }
 
 
-.like{
 
+.like{
+  width:50%;
   display:flex;
   width:100px;
   align-items:center;
@@ -149,14 +179,17 @@ section:hover{
 .like svg{
   width:20px;
   height:20px;
-  fill:green;
+  fill:#1fd760;
+  
 }
 
 .song-len{
   display:flex;
   align-items:center;
-  width:50px;
-  justify-content: right;
+  padding: 0 20px;
+  /* width:50px; */
+  
+  /* border:1px solid yellow; */
 }
 
 .song-len .len{
