@@ -120,6 +120,7 @@ main{
   width:30px;
   height:30px;
   fill: rgb(157,156,156);
+  cursor:pointer;
 }
 
 .options{
@@ -127,11 +128,17 @@ main{
 }
 .like-logo svg:hover{
   fill:white;
+
+}
+
+#like-on{
+  fill:#1fd760;
 }
 .options svg{
   width:30px;
   height:30px;
   fill:rgb(157,156,156);
+  cursor:pointer;
 }
 
 .options svg:hover{
@@ -154,6 +161,7 @@ main{
 
 hr{
   border: 1px solid rgb(157,156,156);
+  margin-bottom:20px;
 }
 
 .riga-sx{
