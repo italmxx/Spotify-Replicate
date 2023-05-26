@@ -47,12 +47,12 @@ main{
 .details-playlist .title-playlist{
   font-size:50px;
   color:#ffff;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .details-playlist .artist-playlist{
   font-size:14px;
-  color:#606060;
+  color:#232323;
   font-weight: bold;
   margin-left:3px;
 }
@@ -66,6 +66,8 @@ main{
 .spotify-logo img{
   width:24px;
   height: 24px;
+  background-color: #000;
+  border-radius: 50%;
 }
 
 .text-spotify{
@@ -88,6 +90,7 @@ main{
   display:flex;
   flex-direction:column;
   padding:10px;
+
 }
 
 .nav-play{
