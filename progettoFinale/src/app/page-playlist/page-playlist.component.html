@@ -37,9 +37,8 @@
   <section class = "section-2">
       <div class = "nav-play">
 
-        <div class = "play-logo">
-
-          <img (click)="playAudioOnClick()" src = "../../assets/play.png">
+        <div class = "play-logo" >
+          <img src = "../../assets/play.png">
         </div>
 
         <div (click)="mostraImmagineCuore()" class = "like-logo" >
@@ -70,16 +69,16 @@
           </div>
         </div>
         <hr>
-        <app-song [id_song] = '"1"' [img_song]="'https://m.media-amazon.com/images/I/81nFF-rXdRL._AC_SL1500_.jpg'" [titolo_song] = "'SICKO MODE'" [album_song]="'ASTROWORLD'" [autore_song]="'Travis Scott'" [len_song] = '"5:38"'></app-song>
-        <app-song [id_song] = '"2"' [img_song]="'https://static.qobuz.com/images/covers/26/85/0886446838526_600.jpg'" [titolo_song] = "'Ric Flair Drip'" [album_song]="'Without Warning'" [autore_song]="'21 Savage'" [autore_song]="'Metro Boomin'" [len_song] = '"3:32"'></app-song>
-        <app-song [id_song] = '"3"' [img_song]="'https://m.media-amazon.com/images/I/41q3vSOVMSL._AC_SY355_.jpg'" [titolo_song] = "'HUMBLE'" [album_song]="'DAMN.'" [autore_song]="'Kendrick Lamar'" [len_song] = '"3:23"'></app-song>
-        <app-song [id_song] = '"4"' [img_song]="'https://m.media-amazon.com/images/I/51FUauZ5NEL._AC_SL1400_.jpg'" [titolo_song] = "'Still D.R.E'" [album_song]="'2001'" [autore_song]="'Dr. Dre , Snoop Dogg'" [len_song] = '"4:20"'></app-song>
-        <app-song [id_song] = '"5"' [img_song]="'https://m.media-amazon.com/images/I/51JPdCLKemL._AC_SX450_.jpg'" [titolo_song] = "'Many Men'" [album_song]="'Get Rich Or Die Tryin'" [autore_song]="'50 Cent'" [len_song] = '"5:34"'></app-song>
-        <app-song [id_song] = '"6"' [img_song]="'https://images.genius.com/60c766f8fdc616c8d358ec781d584129.1000x1000x1.png'" [titolo_song] = "'No Role Modelz'" [album_song]="'2014 Forest Hill Drive'" [autore_song]="'J.Cole'" [len_song] = '"4:52"'></app-song>
-        <app-song [id_song] = '"7"' [img_song]="'https://i1.sndcdn.com/artworks-CFejBrRsW6rN-0-t500x500.jpg'" [titolo_song] = "'Pound Cake/Paris Morton Music 2'" [album_song]="'Nothing Was The Same'" [autore_song]="'Drake , Jay-Z'" [len_song] = '"7:13"'></app-song>
-        <app-song [id_song] = '"8"' [img_song]="'https://m.media-amazon.com/images/I/51jOjrHxQSL._AC_SX466_.jpg'" [titolo_song] = "'I Wonder'" [album_song]="'Graduation'" [autore_song]="'Kanye West'" [len_song] = '"4:03"'></app-song>
-        <app-song [id_song] = '"9"' [img_song]="'https://m.media-amazon.com/images/I/51CgMxpH7RL._AC_SX466_.jpg'" [titolo_song] = "'Money Trees'" [album_song]="'good kid, m.A.A.d city (Deluxe)'" [autore_song]="'Kendrick Lamar, Jay Rock'" [len_song] = '"6:26"'></app-song>
-        <app-song [id_song] = '"10"' [img_song]="'https://m.media-amazon.com/images/I/81fpG8LkWkL._AC_SL1500_.jpg'" [titolo_song] = "'Nonstop'" [album_song]="'Scorpion'" [autore_song]="'Drake'" [len_song] = '"3:58"'></app-song>
+        <app-song [id_song] = 1 [img_song]="'https://m.media-amazon.com/images/I/81nFF-rXdRL._AC_SL1500_.jpg'" [titolo_song] = "'SICKO MODE'" [album_song]="'ASTROWORLD'" [autore_song]="'Travis Scott'" [len_song] = '"5:38"'></app-song>
+        <app-song [id_song] = 2 [img_song]="'https://static.qobuz.com/images/covers/26/85/0886446838526_600.jpg'" [titolo_song] = "'Ric Flair Drip'" [album_song]="'Without Warning'" [autore_song]="'21 Savage'" [autore_song]="'Metro Boomin'" [len_song] = '"3:32"'></app-song>
+        <app-song [id_song] = 3 [img_song]="'https://m.media-amazon.com/images/I/41q3vSOVMSL._AC_SY355_.jpg'" [titolo_song] = "'HUMBLE'" [album_song]="'DAMN.'" [autore_song]="'Kendrick Lamar'" [len_song] = '"3:23"'></app-song>
+        <app-song [id_song] = 4 [img_song]="'https://m.media-amazon.com/images/I/51FUauZ5NEL._AC_SL1400_.jpg'" [titolo_song] = "'Still D.R.E'" [album_song]="'2001'" [autore_song]="'Dr. Dre , Snoop Dogg'" [len_song] = '"4:20"'></app-song>
+        <app-song [id_song] = 5 [img_song]="'https://m.media-amazon.com/images/I/51JPdCLKemL._AC_SX450_.jpg'" [titolo_song] = "'Many Men'" [album_song]="'Get Rich Or Die Tryin'" [autore_song]="'50 Cent'" [len_song] = '"5:34"'></app-song>
+        <app-song [id_song] = 6 [img_song]="'https://images.genius.com/60c766f8fdc616c8d358ec781d584129.1000x1000x1.png'" [titolo_song] = "'No Role Modelz'" [album_song]="'2014 Forest Hill Drive'" [autore_song]="'J.Cole'" [len_song] = '"4:52"'></app-song>
+        <app-song [id_song] = 7 [img_song]="'https://i1.sndcdn.com/artworks-CFejBrRsW6rN-0-t500x500.jpg'" [titolo_song] = "'Pound Cake/Paris Morton Music 2'" [album_song]="'Nothing Was The Same'" [autore_song]="'Drake , Jay-Z'" [len_song] = '"7:13"'></app-song>
+        <app-song [id_song] = 8 [img_song]="'https://m.media-amazon.com/images/I/51jOjrHxQSL._AC_SX466_.jpg'" [titolo_song] = "'I Wonder'" [album_song]="'Graduation'" [autore_song]="'Kanye West'" [len_song] = '"4:03"'></app-song>
+        <app-song [id_song] = 9 [img_song]="'https://m.media-amazon.com/images/I/51CgMxpH7RL._AC_SX466_.jpg'" [titolo_song] = "'Money Trees'" [album_song]="'good kid, m.A.A.d city (Deluxe)'" [autore_song]="'Kendrick Lamar, Jay Rock'" [len_song] = '"6:26"'></app-song>
+        <app-song [id_song] = 10 [img_song]="'https://m.media-amazon.com/images/I/81fpG8LkWkL._AC_SL1500_.jpg'" [titolo_song] = "'Nonstop'" [album_song]="'Scorpion'" [autore_song]="'Drake'" [len_song] = '"3:58"'></app-song>
       </div>
 
 
