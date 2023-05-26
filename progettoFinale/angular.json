@@ -21,7 +21,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/../assets/logotab.ico",
+              "src/logotab.ico",
               "src/assets"
             ],
             "styles": [

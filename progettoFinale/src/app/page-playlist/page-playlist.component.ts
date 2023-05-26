@@ -15,12 +15,12 @@ export class PagePlaylistComponent {
     this.visibile = !this.visibile;
 
   }
-  audioFile: string = 'assets/2.mp3';
-  playAudioOnClick() {
-  const audio = new Audio(this.audioFile);
-  audio.play();
+  // audioFile: string = 'assets/2.mp3';
+  // playAudioOnClick() {
+  // const audio = new Audio(this.audioFile);
+  // audio.play();
 
-  }
+  // }
 
   playSound(id:number){
 
@@ -51,7 +51,7 @@ export class PagePlaylistComponent {
 
   stopSound(id:number){
     let audioFile : any;
-    
+
     switch(id){
       case 1:
         console.log(id);
