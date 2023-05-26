@@ -1,3 +1,4 @@
+import { transition } from '@angular/animations';
 import { Component, Input } from '@angular/core';
 
 @Component({
