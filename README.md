@@ -18,5 +18,6 @@ Cliccando sui primi due brani dal browser partono le prime tracce importate.
 # Progetto sviluppato con il framework Angular
 ## Collaboratori al progetto: [Italo Mollo](https://www.linkedin.com/in/italo-mollo/), [Marco Mechini](https://www.linkedin.com/in/marco-mechini/), [Fabio De Biase](https://www.linkedin.com/in/fabio-de-biase-24215a245/), [Giulia Frau](https://www.linkedin.com/in/giulia-frau-2283b0105/).
 
+## Collegamento al [Progetto](https://spotify-replicate-marco-mechini.vercel.app/)
 
 ### Un ringraziamento ai docenti del corso Web Developer 😎
